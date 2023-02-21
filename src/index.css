@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .btn-primary {
+        @apply bg-primary-500 py-[1.2rem] px-[2.4rem] rounded-full font-bold uppercase text-[1.4rem] [box-shadow:0_1px_5px_rgba(0,0,0,0.6)] hover:bg-black hover:text-white;
+    }
+}
